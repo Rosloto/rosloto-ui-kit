@@ -1,0 +1,9 @@
+import { Button } from '@rosloto/ui-kit';
+
+export default function App() {
+  return (
+    <Button variant="primary">
+      Buy Ticket
+    </Button>
+  );
+}
