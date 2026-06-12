@@ -1,0 +1,30 @@
+
+---
+
+# package.json
+
+```json
+{
+  "name": "@rosloto/ui-kit",
+  "version": "1.0.0",
+  "description": "Rosloto Design System and UI Components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "vitest"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "design-system",
+    "ui-kit",
+    "storybook",
+    "rosloto"
+  ],
+  "license": "MIT"
+}
